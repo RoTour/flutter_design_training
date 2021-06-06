@@ -1,4 +1,4 @@
-name: ro_flutter_exercices
+name: ro_flutter_exercises
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -29,6 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   rect_getter: ^1.0.0
+  animator: ^3.0.0
 
 dev_dependencies:
   flutter_test:

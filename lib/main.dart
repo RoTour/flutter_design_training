@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ro_flutter_exercices/components/bubbles.dart';
-import 'package:ro_flutter_exercices/components/forms/form.dart';
-import 'package:ro_flutter_exercices/components/ro_animated_link_1.dart';
+import 'package:ro_flutter_exercises/components/bubbles.dart';
+import 'package:ro_flutter_exercises/components/forms/form.dart';
+import 'package:ro_flutter_exercises/components/ro_animated_link_1.dart';
 
 void main() {
   runApp(ExercisesApp());
