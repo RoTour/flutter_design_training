@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ro_flutter_exercices/components/bubbles.dart';
+import 'package:ro_flutter_exercices/components/forms/form.dart';
 import 'package:ro_flutter_exercices/components/ro_animated_link_1.dart';
 
 void main() {
@@ -13,8 +14,9 @@ class ExercisesApp extends StatelessWidget {
       routes: {
         '/bubbles': (context) => Bubbles(),
         '/animated-link': (context) => ComponentContainer(child: AnimatedLink()),
+        '/form': (context) => ComponentContainer(child: RoForm())
       },
-      initialRoute: '/animated-link',
+      initialRoute: '/form',
     );
   }
 }
